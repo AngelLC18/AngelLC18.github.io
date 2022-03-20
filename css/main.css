@@ -4,19 +4,6 @@ body {
     margin: 0px;
 }
 
-.contenido {
-    padding: 1em 2em;
-}
-
-.contenido {
-    float: left;
-    box-sizing: border-box;
-}
-
-.contenido {
-    width: 60%;
-}
-
 .skeleton {
     display: flex;
     justify-content: center;
@@ -32,22 +19,4 @@ body {
     max-width: 100%;
     width: 150px;
     height: 150px;
-}
-
-@media screen and (min-width: 780px) and (max-width: 1024px) {
-    .contenido {
-        width: 50;
-    }
-}
-
-@media screen and (min-width: 480px) and (max-width: 780px) {
-    .contenido {
-        width: 100%
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .contenido {
-        width: 100%
-    }
 }
