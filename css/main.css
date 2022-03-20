@@ -1,0 +1,21 @@
+body {
+    background-image: url(/images/index.gif);
+    display: block;
+}
+
+.skeleton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 800px;
+    margin-right: 100px;
+    margin-top: 710px;
+    width: 200px;
+    height: 200px;
+}
+
+.skeleton img {
+    max-width: 100%;
+    width: 150px;
+    height: 150px;
+}
